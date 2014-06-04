@@ -14,6 +14,7 @@ public class TestAction extends ActionSupport{
 
 	public void setUser(User user) {
 		this.user = user;
+		System.out.println("test");
 	}
 
 	@Autowired
